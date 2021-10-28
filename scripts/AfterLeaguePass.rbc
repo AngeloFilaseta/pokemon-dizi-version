@@ -1,0 +1,11 @@
+#dynamic 0x800000  
+
+#org @start  
+checkflag 0x87F
+if 0x0 goto @notYet
+setmaptile 0x8 0x7 0x23F 0x0
+special 0x91
+end
+
+#org @notYet
+end
