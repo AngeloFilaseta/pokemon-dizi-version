@@ -1,0 +1,28 @@
+#dynamic 0x800000
+
+#org @start
+lock
+faceplayer
+trainerbattle 0x1 0x353 0x0 @introText @winText @continue
+msgbox @indizio 0x6
+release
+end
+
+#org @continue
+msgbox @afterText 0x6
+msgbox @indizio 0x6
+release
+end
+
+#org @afterText
+= Pazzesko mi hai battuto.
+
+#org @indizio
+= Indizio
+
+#org @introText
+= Sei arrivato fino a qui...
+
+#org @winText
+= Hai vinto.
+
