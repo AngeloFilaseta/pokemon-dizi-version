@@ -3,27 +3,22 @@
 #org @start
 lock
 faceplayer
-trainerbattle 0x1 0x353 0x0 @introText @winText @continue
+trainerbattle 0x1 0x354 0x0 @introText @winText @continue
 msgbox @afterText 0x6
-msgbox @indizio 0x6
 release
 end
 
 #org @continue
 msgbox @afterText 0x6
-msgbox @indizio 0x6
 release
 end
 
 #org @afterText
-= DIZI:
-
-#org @indizio
-= DIZI:
+= ELISA:
 
 #org @introText
-= DIZI:
+= ELISA:
 
 #org @winText
-= Wow.
+= Uffa...
 
