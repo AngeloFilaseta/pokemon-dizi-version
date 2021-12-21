@@ -1,0 +1,10 @@
+#dynamic 0x800000
+#org @main
+lock
+faceplayer
+msgbox @spk1 0x3
+release
+end
+
+#org @spk1
+= Forse non è ancora il momento.
