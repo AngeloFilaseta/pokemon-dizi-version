@@ -1,8 +1,6 @@
 #dynamic 0x800000
 
 #org @start
-lock
-faceplayer
 trainerbattle 0x1 0x354 0x0 @introText @winText @continue
 msgbox @afterText 0x6
 release
@@ -14,11 +12,11 @@ release
 end
 
 #org @afterText
-= ELISA:
+= ELISA: Non è finita qui. Non la avrete\nvinta così facilmente!
 
 #org @introText
-= ELISA:
+= ELISA: Chi ha due pollici e vi\nfarà il culo?
 
 #org @winText
-= Uffa...
+= Per fortuna non sono io Bob\nKelso...
 
