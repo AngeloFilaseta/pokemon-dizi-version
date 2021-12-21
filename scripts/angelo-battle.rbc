@@ -1,9 +1,7 @@
 #dynamic 0x800000
 
 #org @start
-lock
-faceplayer
-trainerbattle 0x1 0x354 0x0 @introText @winText @continue
+trainerbattle 0x1 0x356 0x0 @introText @winText @continue
 msgbox @afterText 0x6
 release
 end
@@ -14,11 +12,11 @@ release
 end
 
 #org @afterText
-= ANGELO:
+= ANGELO: Tutti buoni a maltrattare i neri.
 
 #org @introText
-= ANGELO:
+= ANGELO: È il momento di una bella\nbattaglia! Ehm, volevo dire, battangelo!
 
 #org @winText
-= Uffa...
+= Poteva andare peggio...
 
